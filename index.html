@@ -17,7 +17,8 @@
 <body>
     <header>
         <!-- navbar section -->
-        <div class="navbar bg-[white] mt-5 mx-auto w-11/12 bg-base-100 rounded-full md:bg-[#F85559] lg: bg-[#F85559]">
+        <div class="navbar bg-white mt-5 mx-auto w-11/12 bg-base-100
+         rounded-full md:bg-[#F85559] lg: bg-[#F85559]">
             <div class="hidden md:block lg:block navbar-start px-6 text-white">
                 <div class="">
                     <ul class="flex flex-row gap-4">
@@ -65,7 +66,68 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <!-- banner section -->
+        <div class="relative">
+            <div class="carousel mx-14 mt-6 max-w-7xl bg-transparent">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="/images/banner1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/images/banner2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="/images/banner3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="/images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute top-20 -left-5   text-center">
+                <h2 class=" text-5xl text-white font-bold">Exotic tastes at your <br> doorstep</h2>
+                <p class="text-base text-white  mt-3">We supply highly quality organic products</p>
+                <button class="bg-[#F85559] mt-3 text-white p-2">Shop Now</button>
+            </div>
+            <div class="bg-white px-6 py-6 flex flex-row gap-5 absolute right-0 -bottom-12">
+                <div>
+                    <img class="w-[114px] h-[112px]" src="images/fruit1.png" alt="">
+                    <p class="text-center">Strawberry</p>
+                </div>
+                <div>
+                    <img class="w-[112px] h-[112px]" src="images/fruit2.png" alt="">
+                    <p class="text-center">Orange</p>
+                </div>
+                <div>
+                    <img class="w-[140px] h-[112px]" src="images/fruit3.png" alt="">
+                    <p class="text-center">Mango</p>
+                </div>
+                <div>
+                    <img class="w-[145px] h-[112px]" src="images/fruit4.png" alt="">
+                    <p class="text-center">Strawberry</p>
+                </div>
+                <div>
+                    <img class="w-[140px] h-[112px]" src="images/fruit5.png" alt="">
+                    <p class="text-center">Mango</p>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 
 </body>
