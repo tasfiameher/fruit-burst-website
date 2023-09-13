@@ -28,7 +28,7 @@
     <header>
         <!-- navbar section -->
         <div class="navbar bg-white mt-5 mx-auto w-11/12 bg-base-100 rounded-full md:bg-[#F85559] lg:bg-[#F85559]">
-            <div class="hidden md:block lg:block navbar-start px-6 text-white">
+            <div class="hidden md:hidden lg:block navbar-start px-6 text-white">
                 <div class="">
                     <ul class="flex flex-row gap-4">
                         <li><a>Home</a></li>
@@ -41,7 +41,8 @@
             <div class="navbar-start md:navbar-center">
                 <div class="flex justify-center items-center">
                     <img class="w-[50px] h-[50px]" src="images/logo.png" alt="" />
-                    <p class="text-black md:text-white lg:text-white text-2xl lg:text-3xl font-bold">
+                    <p
+                        class="text-black text-xl font-normal md:text-white md:text-xl lg:text-white  lg:text-3xl lg:font-bold">
                         Fruit Burst
                     </p>
                 </div>
@@ -66,7 +67,7 @@
             </ul> -->
                 </div>
 
-                <div class="form-control hidden md:block lg:block">
+                <div class="form-control hidden md:hidden lg:block">
                     <div class="flex justify-end items-center relative mr-4">
                         <input placeholder="Search Here"
                             class="rounded-full border border-gray-400 min-w-[400px] p-2 w-full" />
@@ -88,11 +89,12 @@
                         </div>
                         <div
                             class="absolute top-0 left-0 text-center w-full h-[80%] flex flex-col justify-center items-center">
-                            <h2 class="text-base font-medium lg:text-5xl text-white lg:font-bold">
+                            <h2 class="text-base font-medium md:text-3xl lg:text-5xl text-white lg:font-bold">
                                 Exotic tastes at your <br />
                                 doorstep
                             </h2>
-                            <p class="text-[10px] font-normal lg:text-base text-white lg:font-medium lg:mt-3">
+                            <p
+                                class="text-[10px] font-normal md:text-sm lg:text-base text-white lg:font-medium lg:mt-3">
                                 We supply highly quality organic products
                             </p>
                             <div>
@@ -189,7 +191,7 @@
 
             <div
                 class="bg-white text-black p-8 hidden md:flex lg:flex justify-around gap-5 absolute left-[25%] bottom-[-8%]">
-                <div class="hidden lg:flex">
+                <div class="hidden md:hidden lg:flex">
                     <div class="flex flex-col justify-center items-center gap-2">
                         <img class="w-[114px] h-[112px]" src="images/fruit1.png" alt="" />
                         <p class="text-center">Grapes</p>
@@ -215,7 +217,7 @@
         </div>
         <!-- Deal section -->
         <section class="my-20">
-            <div class="flex-row lg:flex flex-wrap justify-between">
+            <div class="flex-row md:flex md:flex-row lg:flex flex-wrap justify-between">
                 <div class="text-center lg:text-left">
                     <h4 class="text-5xl font-bold">Deal of the day</h4>
                     <p class="text-base mt-4">
@@ -401,9 +403,7 @@
         <!-- meet the team section -->
         <section class="">
             <div class="">
-                <!-- <div class="mt-6 bg-black">
-                <img class="opacity-50" src="images/team.png" alt="" />
-              </div> -->
+
                 <div
                     class="bg-[url('images/banner1.png')] bg-no-repeat bg-cover my-20 rounded-md text-center text-white">
                     <div
@@ -414,7 +414,8 @@
                             roots in a piece of classical <br />
                             Latin literature from 45 BC, making it over 2000 years old.
                         </p>
-                        <div class="mt-6 grid grid-cols-1 lg:grid-cols-4 gap-8 justify-center items-center">
+                        <div
+                            class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center items-center">
                             <!-- member-1 -->
                             <div class="text-center flex flex-col items-center justify-center">
                                 <img class="w-[90px] h-[90px] rounder-full text-center" src="images/member1.png"
@@ -478,7 +479,7 @@
                     Latin literature from 45 BC, making it over 2000 years old.
                 </p>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 my-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10">
                 <div class="order-1 lg:order-none">
                     <!-- Dedicated team -->
                     <div
@@ -616,7 +617,7 @@
                 <a class="link link-hover">My Account</a>
             </nav>
             <nav>
-                <div class="flex gap-5 lg:gap-8 w-[50%] mx-auto items-center justify-center text-white mt-8">
+                <div class="flex gap-5 md:gap-6 lg:gap-8 w-[50%] mx-auto items-center justify-center text-white mt-8">
                     <a><i class="fa-brands fa-twitter"></i></a>
                     <a><i class="fa-brands fa-facebook"></i></a>
                     <a><i class="fa-brands fa-youtube"></i></a>
